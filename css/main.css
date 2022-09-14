@@ -27,18 +27,6 @@ header {
   color: white;
 }
 
-li {
-  list-style: none;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 43px;
-  text-align: center;
-  color: #fff;
-  padding: 5px;
-}
-
 .full-screen {
   height: 100vh;
   display: block;
@@ -281,6 +269,18 @@ main {
 
 .ml-0 {
   margin-left: 0 !important;
+}
+
+li {
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 43px;
+  text-align: center;
+  color: #fff;
+  padding: 5px;
 }
 
 .card {
