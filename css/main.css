@@ -31,12 +31,12 @@ li {
   list-style: none;
   font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
+  font-weight: 700;
+  font-size: 32px;
   line-height: 43px;
   text-align: center;
-  color: #fff;
-  padding: 5px;
+  color: #fff5e1;
+  padding: 15px;
 }
 
 .full-screen {
@@ -53,6 +53,7 @@ li {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -69,6 +70,7 @@ li {
 }
 
 .nav-menu {
+  margin-top: 2rem;
   display: none;
 }
 
@@ -81,17 +83,18 @@ li {
 
 .nav-menu li {
   display: flex;
-  border-bottom: rgba(245, 245, 245, 0.511) solid 1px;
+  border-bottom: rgba(203, 203, 203, 0.511) solid 1px;
   width: 100%;
 }
 
 .nav-menu li a {
   text-decoration: none;
-  color: whitesmoke;
+  color: #fff5e1;
   margin-right: auto;
 }
 
 .menu-button {
+  display: flex;
   background: transparent;
   border: none;
   outline: none;
@@ -103,9 +106,6 @@ li {
 
 .menu-button i {
   display: none;
-  width: 18px;
-  height: 12px;
-  color: white;
 }
 
 .menu-button i.active {
@@ -116,7 +116,8 @@ li {
 }
 
 .x-icon {
-  font-size: 4.5rem;
+  font-size: 1.5rem;
+  color: #67798e;
 }
 
 a .mail-icon {

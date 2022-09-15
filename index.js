@@ -14,11 +14,10 @@ menuButton.addEventListener('click', () => {
   header.classList.toggle('full-screen');
 });
 
-// document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
-//   logo.classList.toggle('active');
-//   hamburgerIcon.classList.toggle('active');
-//   xIcon.classList.toggle('active');
-//   menuButton.classList.toggle('active');
-//   navMenu.classList.toggle('active');
-//   header.classList.toggle('full-screen');
-// }));
+document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
+  logo.classList.toggle('active');
+  hamburgerIcon.classList.toggle('active');
+  xIcon.classList.toggle('active');
+  menuButton.classList.toggle('active');
+  navMenu.classList.toggle('active');
+}));
